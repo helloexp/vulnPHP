@@ -1,0 +1,31 @@
+<html>
+
+<body>
+<h1> PHP Stored XSS Example </h1>
+<h3> Leave a review about how much you like this website!</h3>
+
+
+<form action="./submit.php">
+	Name<br>
+	<input type="text" name="name" value=""><br><br>
+
+	Comment<br>
+	<input type="text" name="comment" value=""><br><br>
+
+	<input type="submit" value="Submit">
+</form> 
+
+
+
+<form action="./view.php">
+	<input type="submit" value="View Comments">
+</form>
+
+
+<form action="./clear.php">
+	<input type="submit" value="Clear Comments">
+</form>
+
+
+</body>
+</html>
