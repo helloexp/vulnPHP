@@ -7,3 +7,6 @@ Some PHP thats vulnerable to reflected XSS. Also contains unencoded cookie stuff
 ## 02 Stored XSS
 Some PHP thats vulnerable to stored XSS. If you want to use this, make sure to change your configuration/configuration.php
 The plan is to have configuration.php be vulnerable to a file disclosure vuln.
+
+## 03 Full Path Disclosure
+Some PHP that has debugging turned on. Easiest fix is to just turn off debugging.
